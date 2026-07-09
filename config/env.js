@@ -12,7 +12,7 @@ module.exports = {
 
     langflow: {
         url: process.env.LANGFLOW_URL,
-        token: process.env.LANGFLOW_TOKEN
+        apiKey: process.env.LANGFLOW_API_KEY
     },
 
     http: {

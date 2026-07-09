@@ -15,7 +15,7 @@ async function askAI(message, sessionId) {
             }, 
             {
                 headers: {
-                    Authorization: `Bearer ${config.langflow.token}`
+                    "x-api-key": config.langflow.apiKey
                 }
             }
         );
